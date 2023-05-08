@@ -1,0 +1,16 @@
+# Test coverage folder
+
+coverage/
+
+# Build folder
+# dist/
+# lib/
+
+# Package folders
+node_modules/
+
+# IDE folder
+.vscode/
+
+# Env file
+.env
