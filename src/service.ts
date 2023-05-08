@@ -1,5 +1,7 @@
+import 'reflect-metadata'
+import { injectable } from 'inversify'
 import { Pool, PoolConfig, createPool } from 'mysql'
-
+@injectable()
 abstract class AbstractMysqlService {
   private pool: Pool
 
